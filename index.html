@@ -1,0 +1,89 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="zoom/zoom.js"></script>
+	<script type="text/javascript" src="music/jquery.music.js"></script>
+	<link rel="stylesheet" href="music.css" type="text/css">
+	<script type="text/javascript">
+        $(document).ready(function() {
+            var settings = {
+                progressbarWidth: '200px',
+                progressbarHeight: '5px',
+                progressbarColor: '#22ccff',
+                progressbarBGColor: '#eeeeee',
+                defaultVolume: 0.8
+            };
+            $(".player").player(settings);
+        });
+    </script>
+    <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="zoom/zoom.css" />
+<link rel="stylesheet" type="text/css" href="neon.css" />
+<script type="text/javascript" src="neon/script.js"></script>
+
+</head>
+
+<body>
+<div id="container">
+<div id="menu">
+<ul>
+<li id="m01"><a href="#">Страница</a></li>
+<li id="m02"><a href=" ">Страница</a></li>
+<li id="m03"><a href=" ">Страница</a></li>
+<li id="m04"><a href=" ">Страница</a></li>
+<li id="m05"><a href=" ">Страница</a></li>
+</ul>
+</div>
+<div id="header">
+<div id="logo"> <a href=""><img src="images/logo.gif"  /></a></div>
+<div id="dj"></div>
+<div id="welcome">
+<h2><i>Выполнили:</i></h2>
+<img src="images/welcome.gif"/>
+
+<p><i>Цой О.,</i></p>
+<p><i>Соболев Н.</i></p>
+
+</div>
+<div class="clear"></div>
+</div>
+<div id="middle"></div>
+<div id="middle2"></div>
+<div id="content">
+<div id="left">
+
+<h2><i>Текст</i></h2>
+
+<h1 id="neonText">
+		<span class="textVersion" id="version1"></span>
+    <span class="textVersion" id="version2"></span>
+</h1>
+</div>
+<div id="right">
+<h2><i>Галлерея</i></h2>
+
+<a href="images/photo1-big.jpg" class="zoom"><img src="images/photo1-small.jpg"></a> 
+<a href="images/photo2-big.jpg" class="zoom"><img src="images/photo2-small.jpg"></a> 
+<a href="images/photo3-big.jpg" class="zoom"><img src="images/photo3-small.jpg"></a> 
+<a href="images/photo4-big.jpg" class="zoom"><img src="images/photo4-small.jpg"></a> 
+<br />
+<br />
+<h2><i>Музыка</i></h2>
+<div><audio class="player" src="music/3.ogg"></div>
+ </div>
+<div class="clear"></div>
+</div>
+<div id="footer">
+
+<div align="center">
+
+	
+</div>
+<p></p>
+
+</div>
+</body></html>
